@@ -1,0 +1,29 @@
+div.col123 {
+  float: left;
+  width: 8vw;
+  height: 8vw;
+  padding: 0.1vw;
+}
+* {
+  box-sizing: border-box;
+}
+.row123::after {
+  content: "";
+  clear: both;
+}
+div.row123 {
+  width: 70%;
+  display: flex;
+}
+img.icons {
+  margin-left: 10%;
+  border: 0.1vw solid #555;
+  width: 80%;
+  height: 80%;
+}
+
+.iconCaption {
+  text-align: center;
+  font-size: 0.9vw;
+  font-weight: bold;
+}
